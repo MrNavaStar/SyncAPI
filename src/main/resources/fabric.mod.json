@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "syncapi",
+  "version": "${version}",
+  "name": "SyncAPI",
+  "description": "A simple api for mods wanting to support data sync'd between servers",
+  "authors": ["MrNavaStar"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mrnavastar.syncapi.SyncAPI"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": "1.19.1"
+  },
+  "supportedBackends": [
+    "invsync", "singularity"
+  ]
+}
